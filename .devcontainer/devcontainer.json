@@ -17,12 +17,21 @@
 				"ms-python.vscode-pylance",
 				"dbaeumer.vscode-eslint",
 				"ms-azuretools.vscode-docker",
-				"ms-vscode.azurecli"
+				"ms-vscode.azurecli",
+				"GitHub.copilot-chat",
+				"GitHub.copilot",
+				"GitHub.vscode-pull-request-github",
+				"ZainChen.json",
+				"ms-toolsai.jupyter",
+				"mutantdino.resourcemonitor",
+				"humao.rest-client",
+				"hbenl.vscode-test-explorer",
+				"redhat.vscode-yaml"
 			]
 		}
 	},
 	"forwardPorts": [
 		5432
-	],∏
+	],
 	"postCreateCommand": "python --version",
 }
