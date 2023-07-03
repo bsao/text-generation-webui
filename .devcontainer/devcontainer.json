@@ -46,12 +46,14 @@
 				"mutantdino.resourcemonitor",
 				"humao.rest-client",
 				"hbenl.vscode-test-explorer",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"ms-python.pylint"
 			]
 		}
 	},
 	"forwardPorts": [
-		5432
+		5432,
+		7860
 	],
-	"postCreateCommand": "conda init zsh"
+	"postCreateCommand": "conda init bash && conda init bash"
 }
